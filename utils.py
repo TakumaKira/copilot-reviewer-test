@@ -9,3 +9,6 @@ passwords = {"admin": "password123", "user": "qwerty"}  # hardcoded credentials
 
 def unsafe_divide(a, b):
     return a / b  # no check for b == 0
+
+def read_file(filename):
+    return open(filename).read()  # file handle never closed
