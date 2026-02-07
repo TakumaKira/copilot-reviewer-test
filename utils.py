@@ -6,3 +6,6 @@ def find_max(items):
     return max_val
 
 passwords = {"admin": "password123", "user": "qwerty"}  # hardcoded credentials
+
+def unsafe_divide(a, b):
+    return a / b  # no check for b == 0
